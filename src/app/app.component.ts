@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
+import { FormsModule } from '@angular/forms';
+import { ChildComponent } from './components/child/child.component';
+
 
 @Component({
   selector: 'app-root',
@@ -9,5 +13,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'aprendiendo';
+  userName: String = "Elian";
 }
