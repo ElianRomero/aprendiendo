@@ -14,5 +14,5 @@ import { NgClass } from '@angular/common';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  
+
 }
